@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/Student_Management_System">
+   
+  <Resource name="jdbc/postgres" auth="Container" type="javax.sql.DataSource"
+            maxTotal="100" maxIdle="30" maxWaitMillis="10000"
+            username="postgres" password="Raju@2020"
+            driverClassName="org.postgresql.Driver"
+            url="jdbc:postgresql://localhost:5432/postgres"/>
+</Context>
+
+
